@@ -24,7 +24,7 @@ dataset = pd.read_csv("/Users/jeffreysun/Desktop/my-ml-projects/temperature/temp
 dataset.head()
 X = dataset.iloc[:,:6].values
 y = dataset.iloc[:,6:7].values
-
+cd 
 # normalization
 
 sc = StandardScaler()
